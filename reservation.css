@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    height: 80vh;
+    width: 100vw;
+    background-color: #f8f5f5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    background-image: url(./Home.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f5f5;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.name{
+    font-family: "Pacifico", cursive;
+    color: black;
+    font-size: 2rem;
+}
+
+
+.image{
+    width: 60vw;
+    height: 65vh;
+    background-image: url("./reservation.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+}
+
+.form{
+    position: relative;
+    left: -140px;
+margin-top: 140px;
+height: 40vh;
+width: 15vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.form>input{
+    border: none;
+    padding: 20px;
+    font-size: 1rem;
+    width: 15vw;
+}
+
+button{
+    border: none;
+    background-color:#c5c5c59b;
+    width: 15vw;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding: 20px 0px;
+}

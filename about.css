@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f8f5f5;
+    overflow-x: hidden;
+  
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.nav{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f5f5;
+    position: sticky;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.name{
+    font-family: "Pacifico", cursive;
+    color: black;
+    font-size: 2rem;
+}
+.chefs{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.man{
+    width:60vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.lady{
+    width:60vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic{
+    width: 35%;
+    height: 50%;
+    background-image: url(./men_chef.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:50%;
+}
+
+.info{
+    width: 60%;
+    height: 100%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c_name{
+    font-size: 2rem;
+    font-family: "Rajdhani", sans-serif;
+    
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.m_pic{
+    background-image: url(./men_chef.jpg);
+}
+.l_pic{
+    background-image: url(./lady_chef.jpg);
+}
